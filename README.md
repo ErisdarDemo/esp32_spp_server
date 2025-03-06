@@ -9,11 +9,11 @@ Two Demos, a server & client that connect and exchange data wirelessly with each
 
 ## Setup
 
-- client: WROVER-Kit	(ESP32 - COM6 UART)
+- server: WROVER-Kit	(ESP32 - COM6 UART)
 
 	Dev: VS Code
 
-- server: Waveshare 	(ESP32-S3 - COM4 JTAG)	
+- client: Waveshare 	(ESP32-S3 - COM4 JTAG)	
 
 	Dev: Espressif IDE
 

@@ -3,14 +3,15 @@
     "idf.espIdfPathWin": "C:\\Users\\Justin\\esp\\v5.4\\esp-idf",
     "idf.toolsPathWin": "C:\\Users\\Justin\\.espressif",
     "idf.pythonInstallPath": "C:\\Users\\Justin\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
-    "idf.portWin": "COM4",
+    "idf.portWin": "COM6",
     "idf.customExtraVars": {
-        "IDF_TARGET": "esp32s3"
+        "IDF_TARGET": "esp32"
     },
     "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
     ],
-    "idf.flashType": "JTAG",
+    "idf.flashType": "UART",
     "files.associations": {
         "uart.h": "c",
         "esp_bt_main.h": "c"

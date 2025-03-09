@@ -50,7 +50,7 @@
 #include "freertos/event_groups.h"
 
 //Projec
-#include "ble_spp_server_demo.h"
+#include "main.h"
 
 
 //************************************************************************************************//
